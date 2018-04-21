@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#50a3a2"
+    xmlns:androidspecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AttendanceIOS"
+             x:Class="AttendanceIOS.MainPage">
+
+    <StackLayout  Padding="0,120,0,0" x:Name="GetProducts" BackgroundColor="#50a3a2"  HorizontalOptions="Center" Spacing="20" >
+
+        <Label Text="Välkommen!" FontSize="Large" FontAttributes="Bold" TextColor="White"></Label>
+        <Entry x:Name="userName" Placeholder="Användar-id" HorizontalOptions="FillAndExpand" FontSize="Large" WidthRequest="200"   TextColor="#88ECC1" BackgroundColor="#97D6C8" />
+        <Entry Placeholder="Lösenord" IsPassword="true" x:Name="pass" FontSize="Large" HorizontalOptions="FillAndExpand" WidthRequest="200"   TextColor="#88ECC1" BackgroundColor="#97D6C8"  />
+        <Button Text="Logga in!" TextColor="#88ECC1" BackgroundColor="White"  BorderColor="White" FontSize="Large" BorderRadius="3" Clicked="OnButtonClicked" />
+
+    </StackLayout>
+
+
+</ContentPage>
+

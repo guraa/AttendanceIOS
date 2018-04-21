@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceIOS.iOS", "AttendanceIOS\AttendanceIOS.iOS\AttendanceIOS.iOS.csproj", "{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AttendanceIOS", "AttendanceIOS\AttendanceIOS\AttendanceIOS.shproj", "{9AC7ED38-49F5-4B17-A303-C0658E3C7546}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AttendanceIOS\AttendanceIOS\AttendanceIOS.projitems*{9ac7ed38-49f5-4b17-a303-c0658e3c7546}*SharedItemsImports = 13
+		AttendanceIOS\AttendanceIOS\AttendanceIOS.projitems*{b12e8a44-7e6a-42a2-bce9-97c9faf10c68}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Release|iPhone.Build.0 = Release|iPhone
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B12E8A44-7E6A-42A2-BCE9-97C9FAF10C68}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C199668-8334-47B1-B939-1C54D76DA9E5}
+	EndGlobalSection
+EndGlobal

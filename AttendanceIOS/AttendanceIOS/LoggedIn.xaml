@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#50a3a2" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AttendanceIOS.LoggedIn">
+    <ContentPage.Content>
+
+        <StackLayout  Padding="0,120,0,0" x:Name="User"  HorizontalOptions="Center" Spacing="20" >
+        <Label x:Name="Userid" FontSize="Large" FontAttributes="Bold" TextColor="White"></Label>
+        <Button Text="Scanna QR" TextColor="#88ECC1" BackgroundColor="White"  BorderColor="White" FontSize="Large" BorderRadius="3" x:Name="buttonScanDefaultOverlay"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
