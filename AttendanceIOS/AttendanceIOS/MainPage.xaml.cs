@@ -23,15 +23,17 @@ namespace AttendanceIOS
     }
         async void OnButtonClicked(object sender, EventArgs e)
         {
-            var client = new HttpClient();
-            var response = await client.GetStringAsync("http://192.168.1.229/aa/api/Values?get=Eric");
-            var deserializeLogin = JsonConvert.DeserializeObject<List<values>>(response);
-
-
             var id = userName.Text;
             var pw = pass.Text;
 
-            if(id == deserializeLogin.FirstOrDefault().Id && pw == deserializeLogin.FirstOrDefault().Password)
+            var client = new HttpClient();
+            var response = await client.GetStringAsync("http://192.168.1.228/aa/api/Values?get=" + id);
+            var deserializeLogin = JsonConvert.DeserializeObject<List<values>>(response);
+
+
+
+
+            if(id == deserializeLogin.FirstOrDefault().FirstName && pw == deserializeLogin.FirstOrDefault().Password)
             {
                 await DisplayAlert("Du är inloggad", "Välkommen " + deserializeLogin.FirstOrDefault().FirstName, "OK");
                 await Navigation.PushModalAsync(new LoggedIn(deserializeLogin));

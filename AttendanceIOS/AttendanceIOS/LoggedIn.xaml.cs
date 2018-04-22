@@ -22,25 +22,27 @@ namespace AttendanceIOS
 
             Userid.Text = "Välkommen " + val.FirstOrDefault().FirstName;
 
-            buttonScanDefaultOverlay.Clicked += async delegate {
-                scanPage = new ZXingScannerPage();
-                scanPage.OnScanResult += (result) => {
-                    scanPage.IsScanning = false;
-
-                    Device.BeginInvokeOnMainThread(() => {
-                        Navigation.PopModalAsync();
-                        DisplayAlert("Scanned Barcode", result.Text, "OK");
-                    });
-                };
-
-                await Navigation.PushModalAsync(scanPage);
-            };
-
+            buttonScanDefaultOverlay.Clicked += ButtonScanDefaultOverlay_Clicked;
 
 
         }
 
+        private async void ButtonScanDefaultOverlay_Clicked(object sender, EventArgs e)
+        {
+            scanPage = new ZXingScannerPage();
+            scanPage.OnScanResult += (result) => {
+                scanPage.IsScanning = false;
+
+                Device.BeginInvokeOnMainThread(() => {
+                    Navigation.PopModalAsync();
+                    DisplayAlert("Scanned Barcode", result.Text, "OK");
+                });
+            };
+
+            await Navigation.PushModalAsync(scanPage);
+       
     }
+}
 }
 
 
