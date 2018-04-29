@@ -6,7 +6,8 @@
 
         <StackLayout  Padding="0,120,0,0" x:Name="User"  HorizontalOptions="Center" Spacing="20" >
         <Label x:Name="Userid" FontSize="Large" FontAttributes="Bold" TextColor="White"></Label>
-        <Button Text="Scanna QR" TextColor="#88ECC1" BackgroundColor="White"  BorderColor="White" FontSize="Large" BorderRadius="3" x:Name="buttonScanDefaultOverlay"/>
+            <Button Text="Ange frånvaro" TextColor="#88ECC1" BackgroundColor="White"  BorderColor="White" FontSize="Large" BorderRadius="3" x:Name="absentDefaultOverlay"/>
+            <Button Text="Scanna QR" TextColor="#88ECC1" BackgroundColor="White"  BorderColor="White" FontSize="Large" BorderRadius="3" x:Name="buttonScanDefaultOverlay"/>
 
 
         </StackLayout>
